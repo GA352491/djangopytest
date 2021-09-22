@@ -1,0 +1,5 @@
+[run]
+omit =
+    ".venv/*",
+
+#coverage run --omit 'venv/*' -m unittest tests/*.py && coverage report -m
